@@ -1,0 +1,32 @@
+{
+  "name": "tab-manager-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --watch --progress --config ./webpack.dev.js",
+    "build": "rm -rf dist && webpack --progress --config ./webpack.prod.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@geist-ui/core": "^2.3.8",
+    "@types/chrome": "^0.0.246",
+    "@types/react": "^18.2.25",
+    "@types/react-dom": "^18.2.10",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "inter-ui": "^3.19.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-merge": "^5.9.0"
+  }
+}
